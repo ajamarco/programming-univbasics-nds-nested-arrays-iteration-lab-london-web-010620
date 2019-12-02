@@ -35,3 +35,11 @@ def total_even_pairs(src)
   # this!
 end
 
+new_var = 3 
+if (new_var < 1)
+  puts "aaa"
+  elsif (new_var == 3)
+    puts "igual a 3"
+  else
+    puts "another value"
+end
