@@ -32,7 +32,7 @@ new_array = [
 #puts "the next number is " + 1.to_s
 
 new_array.length.times do |row|
-  new_array.length[row].times do |column|
+  new_array.length[row].length.times do |column|
     puts row
   end
 end
