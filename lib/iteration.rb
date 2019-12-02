@@ -24,4 +24,9 @@ def total_even_pairs(src)
   # this!
 end
 
-puts "this is a text" + " aa"
+new_array = [
+  [1,2,3],
+  [4,5,6],
+  [7,8,9]
+  ]
+puts "the next number is" + 1
