@@ -29,4 +29,8 @@ new_array = [
   [4,5,6],
   [7,8,9]
   ]
-puts "the next number is " + 1.to_s
+#puts "the next number is " + 1.to_s
+
+new_array.length.times do |row|
+  puts row
+end
