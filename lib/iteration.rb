@@ -24,15 +24,3 @@ def total_even_pairs(src)
   # this!
 end
 
-new_array = [
-  [1,2,3],
-  [4,5,6],
-  [7,8,9]
-  ]
-#puts "the next number is " + 1.to_s
-
-new_array.length.times do |row|
-  new_array[row].length.times do |column|
-    puts "the row is #{row}, the col is #{column} and the value is #{new_array[row][column]}"
-  end
-end
