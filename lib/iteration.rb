@@ -33,6 +33,6 @@ new_array = [
 
 new_array.length.times do |row|
   new_array[row].length.times do |column|
-    puts row
+    puts "the row is #{row}, the col is #{column} and the value is #{new_array[row][column]}"
   end
 end
