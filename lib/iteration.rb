@@ -21,8 +21,11 @@ def find_greater_pair(src)
   src.length.times do |element|
     if (src[element][0] < src[element][1])
       new_array << src[element][1]
+    else
+      new_array << src[element][0]
     end
   end
+  new_array
 end
 
 def total_even_pairs(src)
