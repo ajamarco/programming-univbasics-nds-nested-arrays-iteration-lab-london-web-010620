@@ -36,6 +36,13 @@ def total_even_pairs(src)
   # As a reminder any number % 2 will return 0 or 1. If the result is 0, then
   # the number was even. Review the operator documentation if you've forgotten
   # this!
+  total = 0 
+  src.length.times do |element|
+    if ((src[element][0] % 2 == 0) and (src[element][1] % 2 == 0))
+      total += src[element][1] + src[element][0] 
+    end
+  end
+  total 
 end
 
 new_var = 0.1
